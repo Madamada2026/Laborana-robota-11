@@ -1,0 +1,129 @@
+.registration-form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.form-field input.input-error {
+  border-color: #ef4444;
+}
+
+.error-message {
+  display: block;
+  margin-top: 5px;
+  color: #dc2626;
+  font-size: 12px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit-button:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.submit-button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Стилі для тоста */
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-width: 300px;
+  z-index: 1000;
+}
+
+.toast-success {
+  background: #d1fae5;
+  border-left: 4px solid #10b981;
+  color: #047857;
+}
+
+.toast button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: auto;
+  color: inherit;
+}
+
+/* --- Стилі для індикатора надійності пароля (Індивідуальне завдання 1) --- */
+.password-strength-container {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.strength-bar {
+  height: 6px;
+  width: 100%;
+  background-color: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Класи для різних рівнів надійності згідно з вимогами */
+.strength-weak {
+  /* 1-2 бали (додаткові селектори за потреби) */
+}
+
+.strength-medium {
+  /* 3 бали */
+}
+
+.strength-good {
+  /* 4 бали */
+}
+
+.strength-strong {
+  /* 5 балів */
+}
