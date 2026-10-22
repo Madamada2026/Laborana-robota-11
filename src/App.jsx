@@ -1,11 +1,11 @@
 import React from 'react';
-import NotificationApp from './components/NotificationApp';
+import CalendarApp from './components/CalendarApp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <NotificationApp />
+      <CalendarApp />
     </div>
   );
 }
