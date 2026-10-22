@@ -1,14 +1,13 @@
 import React from 'react';
-import WizardApp from './components/WizardApp';
+import NotificationApp from './components/NotificationApp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <WizardApp />
+      <NotificationApp />
     </div>
   );
 }
 
 export default App;
-
