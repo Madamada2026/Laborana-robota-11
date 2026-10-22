@@ -1,13 +1,14 @@
 import React from 'react';
-import TableApp from './components/TableApp';
+import WizardApp from './components/WizardApp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <TableApp />
+      <WizardApp />
     </div>
   );
 }
 
 export default App;
+
