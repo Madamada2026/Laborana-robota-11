@@ -1,11 +1,11 @@
 import React from 'react';
-import CartApp from './components/CartApp';
+import TableApp from './components/TableApp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <CartApp />
+      <TableApp />
     </div>
   );
 }
